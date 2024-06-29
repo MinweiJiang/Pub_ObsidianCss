@@ -1,0 +1,144 @@
+body {
+  --font-default: "微软雅黑";
+  --font-family-list: var(--font-default);/*列表字体*/
+  --font-text-theme: var(--font-default);
+  --h1-font: var(--font-default);
+  --h2-font: var(--font-default);
+  --h3-font: var(--font-default);
+  --h4-font: var(--font-default);
+  --font-family-title: var(--font-default);/*文件抬头标题*/
+  --font-family-folder-file-title: var(--font-default);/*左侧边栏文件、文件夹字体*/
+  /* --font-monospace-theme: var(--font-default); */
+  --font-family-inline-code: var(--font-default);
+  --font-family-tag: var(--font-default);
+  --font-family-vault: "Lucida Handwriting", "Segoe UI Emoji";/*左侧库名字体*/
+  --font-family-special-tag: var(--font-default);
+  --mermaid-font-family: var(--font-default);
+  --font-family-better-footnote: var(--font-default);
+  --font-family-strong: var(--font-default);
+  --font-family-em: var(--font-default);
+  --font-loading-text: var(--font-default);
+
+  /* font weight */
+
+  /* code */
+  /* --code-radius: 10px; */
+
+    /* Links */
+  --link-color: #2F93E4;
+  --link-external-color: #2F93E4;
+  --link-color-hover: #7a00fd;
+  --link-external-color-hover: #7a00fd;
+  --link-decoration: none;
+  --link-decoration-hover: none;
+  --link-external-decoration: none;
+  --link-external-decoration-hover: none;
+
+  --h1-size: 1.5em;
+  --h2-size: 1.4em;
+  --h3-size: 1.3em;
+  --h4-size: 1.2em;
+  --h5-size: 1.1em;
+  --h6-size: 1em;
+
+    /* Inline title */
+    --inline-title-size: 1.8em;
+
+  /* Accent HSL values */
+  --accent-h: 258;
+  --accent-s: 88%;
+  --accent-l: 66%;
+  --color-accent: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+
+  /* 高亮颜色设置 */
+  /* --text-highlight-bg-rgb: #FFFF00;
+  --text-highlight-bg: #FFFF00; */
+
+  /* 待办事项 */
+  --checklist-done-decoration: none;
+
+  /* table */
+  --table-border-color: #868383;
+
+  /* callout */
+  --callout-radius: 8px;
+  --callout-quote: var(--color-purple-rgb);
+
+  /* list */
+  --list-marker-color: var(--text-normal);
+  /* --list-numbered-style: lower-roman; */
+}
+
+
+
+
+/*左侧库名字体与缩进*/
+.nav-folder.mod-root > .nav-folder-title {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Lucida Handwriting";
+  margin-top: -5px;
+  margin-left: -30px;
+  color: var(--vault-name-color);
+
+}
+
+/* Vault鼠标悬停 */
+  @media (hover: hover) {
+    body:not(.is-grabbing) .nav-file-title:hover,
+    body:not(.is-grabbing) .nav-folder-title:hover {
+      color: var(--color-accent);
+      }
+  }
+  @media (hover: hover) {
+    .nav-folder.mod-root > .nav-folder-title:hover {
+      font-weight: 700;
+    }
+  }
+
+
+/* 设置树状目录文件与文件夹样式 */
+
+.nav-file-title {
+  font-size: 13.5px;
+}
+
+.nav-folder-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.nav-folder-title-content {
+  font-weight: 600;
+}
+
+/* 树状标题边框设置 */
+.nav-folder.mod-root .nav-folder > .nav-folder-children {
+  padding-left: var(--nav-item-children-padding-left);
+  margin: 0 0 0 var(--nav-item-children-margin-left);
+  border-left: var(--nav-indentation-guide-width) solid var(--nav-indentation-guide-color);
+}
+
+
+
+.nav-folder.mod-root > .nav-folder-children {
+  /* border-left: none; */
+  margin-left: -8px;
+  padding-left: -5px;
+}
+
+/* 有序标题颜色设置 */
+.cm-s-obsidian .cm-formatting-list {
+  color: var(--text-normal);
+}
+
+
+/* 链接颜色设置 */
+
+.metadata-container .internal-link,/* 内部链接颜色设置 */
+.markdown-rendered .internal-link {
+
+  color: #2F93E4;
+}
+
+

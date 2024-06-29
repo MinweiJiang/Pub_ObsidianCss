@@ -1,0 +1,22 @@
+
+
+/*亮色模式*/
+.theme-light {
+	/* Active line background */
+
+	--text-highlight-bg-rgb: #FFFF00;
+	--text-highlight-bg: #FFFF00;
+	}
+	
+	
+/*暗色模式*/
+.theme-dark {
+	/* Active line background */
+	--text-highlight-bg-rgb: #1D87FF;
+	--text-highlight-bg: #1D87FF;
+	
+	.search-result-file-matched-text {
+		color: #FFFFFF;
+	  }
+
+	}

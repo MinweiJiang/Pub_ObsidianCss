@@ -1,0 +1,74 @@
+
+/*亮色模式*/
+
+.theme-light {
+
+  --inline-title-color: #000000;
+  
+  /*各级标题*/
+  --h1-color: #08377D;
+  --h2-color: #008DDA;
+  --h3-color: #02B099;
+  --h4-color: #17AACE;
+  --h5-color: #872657;
+  --h6-color: #8A2BE2;
+  
+  /*正文格式设置*/
+  
+  --text-normal: #000000;
+  --accent-em: #000000;
+  --font-family-em: "Times New Roman";
+  --bg-color-highlight-2: #FFFF00;
+  
+  
+  /*行内代码格式*/
+  
+  --text-color-code: #000000;
+  --font-weight-inline-code: 500;
+  
+  /*表格格式*/
+  
+  
+  /*树状格式*/
+  
+  }
+  
+  
+  
+  
+  /*暗色模式*/
+  
+  .theme-dark {
+  
+  --inline-title-color: var(--text-normal);
+  
+  /*一级标题格式*/
+  --h1-color: #87CEEB;
+  --h2-color: #008DDA;
+  --h3-color: #02B099;
+  --h4-color: #17AACE;
+  --h5-color: #872657;
+  --h6-color: #8A2BE2;
+
+  
+  /*正文格式设置*/
+  --accent-em: #C6C6C6;
+  --bg-color-highlight-2: #1D87FF;
+  --color-highlight-2: #FFFFFF;
+  --text-highlight: #ededed;
+  
+  /*行内代码格式*/
+  --text-color-code: #C6C6C6;
+  --font-weight-inline-code: 500;
+  
+  /*树状图格式*/
+  
+  .pdf-container {
+    filter: invert(89%);
+  }
+  
+  }
+  
+  
+  
+  

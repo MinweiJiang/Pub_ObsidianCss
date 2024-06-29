@@ -1,0 +1,32 @@
+
+
+/*亮色模式*/
+.theme-light {
+/* Active line background */
+.markdown-source-view.mod-cm6 .cm-line.cm-active{
+  background-color: #f2f5fa;
+  border-radius: 6px;
+}
+/* --text-highlight-bg-rgb: #FFFF00;
+--text-highlight-bg: #FFFF00; */
+}
+
+
+/*暗色模式*/
+.theme-dark {
+  /* Active line background */
+  .markdown-source-view.mod-cm6 .cm-line.cm-active{
+    background-color: #363636;
+    border-radius: 6px;
+  }
+  /* --text-highlight-bg-rgb: #1D87FF;
+	--text-highlight-bg: #1D87FF; */
+  }
+
+  .markdown-source-view.mod-cm6 ::selection {
+    background-color: #FFFF00;
+  }
+
+
+  .cm-s-obsidian span.cm-highlight.obsidian-search-match-highlight {
+    background-color: #FFFF00;  }

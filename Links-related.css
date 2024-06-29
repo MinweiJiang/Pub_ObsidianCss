@@ -1,0 +1,43 @@
+
+
+
+/* 外部链接颜色设置 */
+.theme-light {
+@media (hover: hover) {
+    .external-link:hover {
+      border-radius: 4px;
+      background-color: #E5E0F7
+    }
+  }
+
+@media (hover: hover) {
+.cm-s-obsidian span.cm-link:hover {
+    border-radius: 4px;
+    background-color: #E5E0F7
+}
+}
+
+
+}
+
+
+
+/* 内部链接颜色设置 */
+
+.theme-light {
+
+/* 预览模式链接颜色设置 */
+@media (hover: hover) {
+    .metadata-container .internal-link:hover,
+    .markdown-rendered .internal-link:hover {
+        border-radius: 4px;
+        background-color: #E5E0F7
+    }
+    }
+
+/* 源码模式链接颜色设置 */
+.cm-s-obsidian span.cm-hmd-internal-link:hover {
+    border-radius: 4px;
+    background-color: #E5E0F7
+    }
+}

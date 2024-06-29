@@ -1,0 +1,138 @@
+
+/* 代码颜色与格式 */
+/* 预览模式 */
+
+.cm-s-obsidian span.cm-inline-code {
+
+  font-size: var(--code-size);;
+  vertical-align:8%
+
+}
+
+
+.theme-light {
+  .markdown-rendered code {
+    color: var(--text-normal);
+    background-color: #dae1e7;
+    border-radius: var(--radius-s);
+    font-size: var(--code-size);
+}
+  }
+  
+/* 预览模式代码块颜色 */
+  /* .markdown-rendered pre { */
+    /* background-color: #dae1e7; */
+  /* } */
+
+
+  /* 源码模式 */
+  .cm-s-obsidian span.cm-inline-code {
+    color: var(--text-normal);
+    background-color: #ccd6e0;
+    border-radius: var(--radius-s);
+  }
+  
+  /* 代码块颜色 */
+  .cm-s-obsidian div.HyperMD-codeblock-bg {
+    background-color: #242424;
+    
+  }
+
+  
+  .theme-dark {
+    .markdown-rendered code {
+      color: var(--text-normal);
+      /* background-color: #444444; */
+      border-radius: var(--radius-s);
+    }
+    
+    /* 源码模式 */
+  .cm-s-obsidian span.cm-inline-code {
+    color: var(--text-normal);
+    background-color: #444444;;
+    border-radius: var(--radius-s);
+    /* vertical-align: auto; */
+  }
+  
+    }
+
+/* 代码块中文本颜色 */
+
+    .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock {
+      color: #8B8B8B;
+    }
+
+
+/* 代码选中行颜色 */
+
+
+/*亮色模式*/
+.theme-light {
+
+.markdown-source-view.mod-cm6 div.cm-active.HyperMD-codeblock-bg.cm-line.HyperMD-codeblock{
+  background-color: #5e5e5e;/*原来是#363636;*/
+  border-radius: 0px;
+  /* cursor:; */
+}
+
+}
+/* .cm-active.HyperMD-codeblock.HyperMD-codeblock-bg.cm-line */
+
+/* .markdown-source-view.mod-cm6 .cm-active-indent::before {
+  border-right: var(--indentation-guide-width-active) solid var(--indentation-guide-color-active);
+} */
+
+
+/* 代码块标识 */
+
+/* 悬停 */
+@media (hover: hover) {
+  .markdown-source-view.mod-cm6 .code-block-flair:hover {
+    background-color: var(--color-accent)
+  }
+}
+
+/* 标识字体颜色 */
+.markdown-source-view.mod-cm6 .code-block-flair {
+
+  color: #E5E0F7
+
+}
+
+
+/* 预览模式后面的大背景颜色 */
+/* :not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  background: #d5d7da;
+} */
+
+/* code[class*="language-"],
+pre[class*="language-"] {
+  color: var(--code-normal);
+  background: none;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: normal;
+  font-family: var(--font-monospace);
+  text-align: left;
+  word-spacing: normal;
+  line-height: var(--line-height-normal);
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+} */
+
+.theme-light {
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  background: #d5d7da;
+  border-radius: 8px;
+}
+
+.markdown-rendered code.is-loaded.language-python{
+  background-color: #d5d7da;
+  font-size: var(--font-smaller);
+}
+}

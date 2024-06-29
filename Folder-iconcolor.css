@@ -1,0 +1,15 @@
+
+body.folder-icons .nav-folder-children .nav-folder-title-content::before {
+ 
+  background-color: #65CAF8;
+  filter: invert(0%);
+  opacity: 1;
+}
+
+
+body.folder-icons .nav-folder-children .nav-folder.is-collapsed .nav-folder-title-content::before {
+  
+  background-color: #65CAF8;
+  filter: invert(0%);
+
+}

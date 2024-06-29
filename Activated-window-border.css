@@ -1,0 +1,21 @@
+/* ! 模仿Colorful Note Borders插件，针对激活的窗口进行添加边框*/
+.markdown-preview-view:focus,
+.view-content
+  > .markdown-source-view.mod-cm6
+  > .cm-editor
+  > .cm-scroller,
+.markdown-preview-view {
+  border: 2px solid rgba(255, 0, 0, 0);
+}
+
+.markdown-preview-view:focus {
+  border: 2px solid rgba(255, 0, 0, 0.455);
+}
+.markdown-preview-view:focus,
+.view-content
+  > .markdown-source-view.mod-cm6
+  > .cm-editor
+  > .cm-scroller:focus-within {
+  border: 2px solid var(--color-accent);
+  border-radius: var(--radius-m);
+}

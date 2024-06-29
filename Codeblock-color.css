@@ -1,0 +1,9 @@
+/*代码块背景颜色修改*/
+
+.theme-light {
+--background-code: #e3e8ec; /*代码块背景颜色修改*/
+/*代码块*/
+/* --code-active-line-background-color:#D9F3FA !important;  */
+
+}
+
